@@ -21,7 +21,7 @@ public class HelloController {
     @GetMapping("/user")
     @ResponseBody
     public User user(String id) {
-        User user=service.getUserById(id);
-        return user;
+//        User user=
+        return service.getUserById(id);
     }
 }
