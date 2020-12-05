@@ -1,2 +1,5 @@
 rootProject.name = 'demo-java'
+//include 'tools-common', 'service'
+include 'api'
+include 'service'
 
